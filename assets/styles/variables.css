@@ -1,0 +1,16 @@
+:root {
+  --card-bg: #23272f;
+  --card-shadow: 0 4px 24px rgba(33, 150, 243, 0.10), 0 1.5px 6px rgba(33, 150, 243, 0.08);
+  --text-color: #f3f3f3;
+  --progress-bg: #2d3748;
+  --progress-fill: #38bdf8;
+  --input-bg: #23272f;
+  --input-border: #444c5e;
+  --input-text: #f3f3f3;
+  --btn-bg: #38bdf8;
+  --btn-bg-hover: #1976d2;
+  --btn-text: #fff;
+  --toggle-bg: #23272f;
+  --toggle-icon: #38bdf8;
+  --bg-gradient: linear-gradient(135deg, #23272f 0%, #2d3748 100%);
+} 
