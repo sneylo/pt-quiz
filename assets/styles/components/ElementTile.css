@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: flex-end;
   transition: box-shadow 0.2s, background 0.2s, transform 0.2s, border 0.2s;
-  border: 1.5px solid #bbb;
+  border: 2.5px solid #bbb;
 }
 .tile.guessed {
   background: #e6fbe6;
