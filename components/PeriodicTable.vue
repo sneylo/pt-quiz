@@ -3,6 +3,7 @@
     <ElementTile
       v-for="element in elements"
       :key="element.number"
+      v-memo="[guessed.includes(element.number)]"
       :number="element.number"
       :symbol="element.symbol"
       :name="element.names.english || 'Unknown'"
