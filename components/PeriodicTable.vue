@@ -24,45 +24,4 @@ import ElementTile from './ElementTile.vue';
 defineProps<{ guessed: number[]; lastFlipped: number | null }>();
 </script>
 
-<style scoped>
-.periodic-table {
-  display: grid;
-  grid-template-columns: repeat(18, minmax(36px, 1fr));
-  grid-template-rows: repeat(9, minmax(60px, 1fr));
-  gap: 6px;
-  max-width: 98vw;
-  margin: 0 auto;
-  background: transparent;
-  border-radius: 12px;
-  padding: 12px 2vw 24px 2vw;
-  position: relative;
-  overflow-x: auto;
-  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
-}
-.f-block-label {
-  visibility: hidden;
-}
-/* Improved color coding for element groups */
-.alkali-metal { background: #ffd180; }
-.tile.guessed.alkali-metal { background: #ffd180; }
-.alkaline-earth-metal { background: #fff59d; }
-.tile.guessed.alkaline-earth-metal { background: #fff59d; }
-.lanthanide { background: #ce93d8; }
-.tile.guessed.lanthanide { background: #ce93d8; }
-.actinide { background: #80deea; }
-.tile.guessed.actinide { background: #80deea; }
-.transition-metal { background: #80cbc4; }
-.tile.guessed.transition-metal { background: #80cbc4; }
-.post-transition-metal { background: #b0bec5; }
-.tile.guessed.post-transition-metal { background: #b0bec5; }
-.metalloid { background: #aed581; }
-.tile.guessed.metalloid { background: #aed581; }
-.nonmetal { background: #fff176; }
-.tile.guessed.nonmetal { background: #fff176; }
-.halogen { background: #ffd54f; }
-.tile.guessed.halogen { background: #ffd54f; }
-.noble-gas { background: #4fc3f7; }
-.tile.guessed.noble-gas { background: #4fc3f7; }
-.unknown { background: #bdbdbd; }
-.tile.guessed.unknown { background: #bdbdbd; }
-</style> 
+<style src="@/assets/styles/components/PeriodicTable.css" scoped></style> 

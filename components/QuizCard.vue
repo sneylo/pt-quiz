@@ -29,26 +29,4 @@ defineProps<{
 defineEmits(['update:input', 'submit']);
 </script>
 
-<style scoped>
-.quiz-card {
-  position: relative;
-  background: var(--card-bg) !important;
-  box-shadow: var(--card-shadow);
-  border-radius: 1.5rem;
-  padding: 2rem 2.5rem 2.5rem 2.5rem;
-  margin-bottom: 2rem;
-  min-width: 320px;
-  max-width: 420px;
-  width: 100%;
-  color: var(--text-color);
-}
-.score-row {
-  margin-bottom: 18px;
-}
-.progress-bar-wrapper {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-</style> 
+<style src="@/assets/styles/components/QuizCard.css" scoped></style> 
