@@ -16,7 +16,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineEmits } from 'vue';
 import ProgressBar from './ProgressBar.vue';
 import InputField from './InputField.vue';
 defineProps<{

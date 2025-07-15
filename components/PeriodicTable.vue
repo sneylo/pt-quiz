@@ -18,7 +18,6 @@
 
 <script setup lang="ts">
 import { elements } from '../data/elements';
-import { defineProps } from 'vue';
 import ElementTile from './ElementTile.vue';
 
 defineProps<{ guessed: number[]; lastFlipped: number | null }>();
