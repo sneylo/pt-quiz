@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 .quiz-card {
   position: relative;
   background: var(--card-bg) !important;
@@ -33,7 +34,6 @@
   outline: 2px solid #38bdf8;
   outline-offset: 2px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 .app-container {
   min-height: 100vh;
   min-width: 100vw;
