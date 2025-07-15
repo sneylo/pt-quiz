@@ -16,7 +16,7 @@
     @blur="hideTooltip"
   >
     <span v-if="props.guessed" class="atomic-number">{{ props.number }}</span>
-    <div v-if="props.guessed" class="symbol-wrapper">
+    <div v-if="props.guessed" class="symbol-wrapper flex-center">
       <span class="symbol">{{ props.symbol }}</span>
     </div>
     <div v-else class="tile-hidden"></div>

@@ -16,25 +16,14 @@
   visibility: hidden;
 }
 /* Improved color coding for element groups */
-.alkali-metal { background: #ffd180; }
-.tile.guessed.alkali-metal { background: #ffd180; }
-.alkaline-earth-metal { background: #fff59d; }
-.tile.guessed.alkaline-earth-metal { background: #fff59d; }
-.lanthanide { background: #ce93d8; }
-.tile.guessed.lanthanide { background: #ce93d8; }
-.actinide { background: #80deea; }
-.tile.guessed.actinide { background: #80deea; }
-.transition-metal { background: #80cbc4; }
-.tile.guessed.transition-metal { background: #80cbc4; }
-.post-transition-metal { background: #b0bec5; }
-.tile.guessed.post-transition-metal { background: #b0bec5; }
-.metalloid { background: #aed581; }
-.tile.guessed.metalloid { background: #aed581; }
-.nonmetal { background: #fff176; }
-.tile.guessed.nonmetal { background: #fff176; }
-.halogen { background: #ffd54f; }
-.tile.guessed.halogen { background: #ffd54f; }
-.noble-gas { background: #4fc3f7; }
-.tile.guessed.noble-gas { background: #4fc3f7; }
-.unknown { background: #bdbdbd; }
-.tile.guessed.unknown { background: #bdbdbd; } 
+.alkali-metal, .tile.guessed.alkali-metal { background: #ffd180; }
+.alkaline-earth-metal, .tile.guessed.alkaline-earth-metal { background: #fff59d; }
+.lanthanide, .tile.guessed.lanthanide { background: #ce93d8; }
+.actinide, .tile.guessed.actinide { background: #80deea; }
+.transition-metal, .tile.guessed.transition-metal { background: #80cbc4; }
+.post-transition-metal, .tile.guessed.post-transition-metal { background: #b0bec5; }
+.metalloid, .tile.guessed.metalloid { background: #aed581; }
+.nonmetal, .tile.guessed.nonmetal { background: #fff176; }
+.halogen, .tile.guessed.halogen { background: #ffd54f; }
+.noble-gas, .tile.guessed.noble-gas { background: #4fc3f7; }
+.unknown, .tile.guessed.unknown { background: #bdbdbd; } 

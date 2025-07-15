@@ -34,4 +34,45 @@ html, body {
   margin-bottom: 18px;
   color: #1976d2;
   letter-spacing: 1px;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 0.95em;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.10);
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.2s, background 0.2s;
+  color: #fff;
+}
+.btn:hover {
+  opacity: 1;
+}
+.btn--blue {
+  background: #38bdf8;
+}
+.btn--blue:hover {
+  background: #1976d2;
+}
+.btn--red {
+  background: #e53935;
+}
+.btn--red:hover {
+  background: #b71c1c;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
 } 

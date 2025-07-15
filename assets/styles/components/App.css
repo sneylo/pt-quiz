@@ -12,20 +12,9 @@
 }
 .table-wrapper {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .guess-input.error {
   border: 2px solid var(--input-error) !important;
-  animation: shake 0.3s linear;
-}
-@keyframes shake {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  50% { transform: translateX(5px); }
-  75% { transform: translateX(-5px); }
-  100% { transform: translateX(0); }
 }
 @media (max-width: 700px) {
   .app-root {
@@ -71,17 +60,6 @@
   top: 16px;
   right: 16px;
   z-index: 3000;
-  background: #38bdf8;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 6px 14px;
-  font-size: 0.95em;
-  font-weight: 600;
-  box-shadow: 0 2px 8px rgba(33,150,243,0.10);
-  cursor: pointer;
-  opacity: 0.85;
-  transition: opacity 0.2s, background 0.2s;
 }
 .reveal-all-btn:hover {
   opacity: 1;
@@ -92,17 +70,6 @@
   top: 56px;
   right: 16px;
   z-index: 3000;
-  background: #e53935;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 6px 14px;
-  font-size: 0.95em;
-  font-weight: 600;
-  box-shadow: 0 2px 8px rgba(229,57,53,0.10);
-  cursor: pointer;
-  opacity: 0.85;
-  transition: opacity 0.2s, background 0.2s;
 }
 .hide-all-btn:hover {
   opacity: 1;

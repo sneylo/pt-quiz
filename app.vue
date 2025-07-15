@@ -11,17 +11,17 @@
     />
     <button
       v-if="isDev"
-      class="reveal-all-btn"
+      class="reveal-all-btn btn btn--blue"
       @click="revealAll"
       title="Reveal all elements (dev only)"
     >Reveal All</button>
     <button
       v-if="isDev"
-      class="hide-all-btn"
+      class="hide-all-btn btn btn--red"
       @click="hideAll"
       title="Hide all elements (dev only)"
     >Hide All</button>
-    <div class="table-wrapper">
+    <div class="table-wrapper flex-center">
       <PeriodicTable :guessed="guessed" :last-flipped="lastFlipped" @flip-end="onFlipEnd" />
     </div>
   </div>

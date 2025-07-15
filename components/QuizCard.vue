@@ -2,7 +2,7 @@
   <div class="quiz-card">
     <h1>Periodic Table Quiz</h1>
     <div class="score-row">
-      <div class="progress-bar-wrapper">
+      <div class="progress-bar-wrapper flex-center">
         <ProgressBar :value="guessed" :max="total" :percent="percent" />
       </div>
     </div>
